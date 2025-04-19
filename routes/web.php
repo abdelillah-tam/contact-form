@@ -9,7 +9,7 @@ Route::get('/', function (Request $request) {
 
     return view(
         'home',
-        ['status' => $request->session()->pull('status', null), 'asset' => config('app.assetss')]
+        ['status' => $request->session()->pull('status', null)]
     );
 })->name('home');
 
