@@ -49,7 +49,6 @@
                 </p>
             @endisset
         </section>
-        <p>asset url: {{ $asset }}</p>
     </section>
 
 

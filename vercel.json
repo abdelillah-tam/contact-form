@@ -5,10 +5,7 @@
         "api/*.php": { "runtime": "vercel-php@0.7.1" }
     },
     "public": "public",
-    "routes": [{
-        "src": "/build/(.*)",
-        "dest": "/build/$1"
-    },
+    "routes": [
     {
         "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
         "dest": "/public/$1"
@@ -20,7 +17,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://contact-mocha-seven.vercel.app",
+        "APP_URL": "https://contact-abdelillah-tam-abdelillah-tams-projects.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -32,8 +29,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "outputDirectory": "public",
-    "buildCommand": "npm install && npm run build"
+    }
   
 }
