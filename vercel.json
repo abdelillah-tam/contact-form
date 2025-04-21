@@ -11,11 +11,6 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-<<<<<<< HEAD
-
-=======
-        "APP_URL": "https://at-contact-form.vercel.app",
->>>>>>> 2f582af3ccc3bb987dad4659bc8252c02a265479
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
