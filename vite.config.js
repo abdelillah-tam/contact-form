@@ -13,5 +13,6 @@ export default defineConfig({
             refresh: true
         }),
         tailwindcss(),
-    ]
+    ],
+    base: "https://at-contact-form.vercel.app/"
 });
